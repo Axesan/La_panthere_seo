@@ -6,7 +6,28 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+/* MY CSS */
+.citation{
+    font-size: large;
+    font-style: italic;
+}
+.name_citation{
+   
+    font-weight: lighter;
+    font-size: large;
+    color: #575757;
 
+}
+.slug{
+    font-size: larger;
+    text-align: left;
+    font-weight: 500;
+}
+.link{
+    color: red;
+}
+
+/* EO MY CSS */
 a,
 button {
     transition: all .3s ease-in-out;
@@ -100,7 +121,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc button:hover {
@@ -133,7 +154,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 0.981);
 }
 
 .d-bloc .a-btn:hover,
@@ -698,8 +719,9 @@ a {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 550px;
     margin: auto auto auto auto;
+    
 }
 
 h2 {
@@ -761,7 +783,7 @@ h4 {
 }
 
 .bgc-white {
-    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.591);
 }
 
 .bgc-dark-slate-blue {
@@ -769,7 +791,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #fa580d;
 }
 
 .tc-white {
