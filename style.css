@@ -24,8 +24,8 @@ body {
     font-weight: 500;
 }
 .link{
-    color: red;
 }
+
 
 /* EO MY CSS */
 a,
@@ -799,12 +799,13 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #fa580d;
+    cursor: pointer;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #c4704a!important;
     color: #FFFFFF!important;
 }
 
