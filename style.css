@@ -796,17 +796,24 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+    
 }
-
+.tc-white-contact{
+    color: #FFF !important;
+}
 .btn-atomic-tangerine {
-    background: #995538;
+    background-color: #5e402b !important;
+    color: #fff !important;
     cursor: pointer;
-    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c4704a!important;
-    color: #FFFFFF!important;
+    background-color: #7c523d;
+    color: #fff;
+   
+}
+.bold{
+    font-weight: 700;
 }
 
 .ltc-white {
@@ -850,6 +857,10 @@ h4 {
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .portfolio-thumb{
+        width: 100%;
+        object-fit: cover;
     }
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
